@@ -35,6 +35,11 @@
       "config": "./protractor.conf.js"
     }
   },
+  "assets": [
+    "src/assets",
+    "src/your-json-dir"
+  ],
+
   "lint": [
     {
       "project": "src/tsconfig.app.json"
